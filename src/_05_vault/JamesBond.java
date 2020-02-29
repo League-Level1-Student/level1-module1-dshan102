@@ -1,9 +1,12 @@
 package _05_vault;
 
 public class JamesBond {
-class jamesBond {
-	Vault nameofvault;
-	//findCode(nameofvault) {
-		
+	public void findCode(Vault v){
+		for(int i=0; i<1000000; i++) {
+		v.tryCode(i);
+		}
 	}
 }
+	
+
+

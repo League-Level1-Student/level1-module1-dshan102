@@ -1,12 +1,18 @@
 package _05_vault;
 
 public class Vault {
-	private int key = 5;
+	private static int key = 5;
 public static void main(String[] args) {
-	boolean c = tryCode(5);
+	tryCode(5);
 }
-public static boolean tryCode(int n) {
-	return true;
+public static void tryCode(int n) {
+	if(n==key) {
+		System.out.println("Correct");
+
+	}
+	else {
+		System.out.println("Incorrect");
+	}
 }
 }
 
